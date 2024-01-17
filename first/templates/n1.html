@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College</title>
+    <style>
+           body{
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR90J30La838mPuoik852x3h-MDwkusMa_8Bg&usqp=CAU.jpg);
+            background-repeat:no-repeat ;
+            background-size: cover;
+        }
+        table,td,th,tr{
+            border: 3px solid seagreen;
+        }
+        text{
+            color: azure;
+            border: 2px solid black;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Hello Everyone</h1>
+    <br>
+    <h2>Welcome To My Page</h2>
+    <br>
+    <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div>
+            <label for="">Name</label>
+            <input type="text" name="Name">
+        </div>
+
+        <div>
+            <label for="">First Name</label>
+            <input type="number" name="First Name">
+        </div>
+
+        <div>
+            <label for="">Last Name</label>
+            <input type="text" name="Last Name">
+        </div>
+
+        <div>
+            <label for="">Age</label>
+            <input type="number" name="Age">
+        </div>
+        <button>submit</button>
+
+    </form>
+    
+</body>
+</html>

@@ -6,7 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><u><center>This Is My From</center></u></h1>
+    <h1>This is  form</h1>
+    <br>
     <form action="" method="post" enctype="multipart/form-data">
         {% csrf_token %}
         <div>
@@ -15,22 +16,21 @@
         </div>
 
         <div>
-            <label for="">First Name</label>
-            <input type="text" name="First Name">
-
+            <label for="">Firstname</label>
+            <input type="text" name="Firstname">
         </div>
 
         <div>
-            <label for="">Last Name</label>
-            <input type="text" name="Last Name">
+            <label for="">Lastname</label>
+            <input type="text" name="Lastname">
         </div>
-        
+
         <div>
             <label for="">Age</label>
             <input type="number" name="Age">
         </div>
-        <button>Submit</button>
-    </form>
+        <button>submit</button>
 
+    </form>
 </body>
 </html>

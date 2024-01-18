@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class FirstConfig(AppConfig):
+class ToyConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'first'
+    name = 'toy'
